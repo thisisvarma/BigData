@@ -50,7 +50,12 @@ Once we finished installing virtualbox and vagrant, follow below steps
 * run "vagrant up" command
 * do "vagrant ssh"
 
+This process will take time to download box, configure and make it online. At end, we will see screen similar to below
+
+[vagrant_hadoopserver status](https://github.com/psanthoshkumar/BigDataLearning/blob/master/hadoopserver_up.png)
+
 In ideal conditions, we should be able to login to ubuntu OS which has all packages what we need to continue with our training
+
 
 ### Note : vagrant box may change/remove/update from vagrant cloud storage. At this point of time, i have below features
 
