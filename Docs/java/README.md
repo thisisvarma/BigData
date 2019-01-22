@@ -70,7 +70,6 @@ There are 8 data types in java. They are,
 	float
 	long
 	double
-
 ## 2. Exceptions
 
 there are 5 error handlers or expcetions in java. They are,
@@ -95,7 +94,6 @@ there are 5 error handlers or expcetions in java. They are,
 	strictfp
 
 ## 4.classes & objects (11)
-
 	class
 	interface
 	enum
@@ -109,7 +107,6 @@ there are 5 error handlers or expcetions in java. They are,
 	new
 
 ## 5. coditions & loop (10)
-
 	for
 	while
 	do
@@ -122,12 +119,10 @@ there are 5 error handlers or expcetions in java. They are,
 	else
 
 ## 6. unused(2)
-
 	goto
 	const
 
 ## 7. method(2)
-
 	void
 	return
 
