@@ -91,5 +91,4 @@ Once VB is ready, we should be able to lauch any interfaces from below list. Her
 	$ /bin/bash /opt/service-start-cluster.sh
 
 
-## After this minimum JAVA knowledge is required. Hence, have to practice java and my notes for JAVA preparation at link
-[JAVA notes](https://github.com/psanthoshkumar/BigDataLearning/blob/master/Docs/java/README.md)
+## After this minimum JAVA knowledge is required. Hence, have to practice java and my notes for JAVA preparation at link [JAVA notes](https://github.com/psanthoshkumar/BigDataLearning/blob/master/Docs/java/README.md)
