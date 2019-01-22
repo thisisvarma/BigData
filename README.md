@@ -4,7 +4,7 @@
 
 #Disclaimer : this notes is taken from internet, surfing. Hence, using this notes or programs is not advisable to use in any production Environments. 
 
-### In total training session has 7 chapters for now! Below are titles for each chapter
+### In total, training session has 7 chapters for now! Below are titles for each chapter
 
 1. [Introduction to Big Data](https://github.com/psanthoshkumar/BigDataLearning/wiki/1.-Introduction-to-Big-Data)
 
@@ -90,5 +90,17 @@ Once VB is ready, we should be able to lauch any interfaces from below list. Her
 	# Start the services
 	$ /bin/bash /opt/service-start-cluster.sh
 
+# 3. First Week Assignment
 
-## After this minimum JAVA knowledge is required. Hence, have to practice java and my notes for JAVA preparation at link [JAVA notes](https://github.com/psanthoshkumar/BigDataLearning/blob/master/Docs/java/README.md)
+
+1. JAVA knowledge
+2. Install Hadoop Single node server
+
+## minimum JAVA knowledge is required. Hence, have to practice java and my notes for JAVA preparation at link [Java notes](https://github.com/psanthoshkumar/BigDataLearning/blob/master/Docs/java/README.md) , once you finished come back here!
+
+## if you follow above steps, your single node server will be ready for next chapter.
+
+
+# 4. HDFS commands
+
+This is big chapter to cover lot of stuff.. Better, i should mention in another page for this chapter to make our lives easier. Follow this [link]() for HDFS commands

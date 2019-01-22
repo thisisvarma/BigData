@@ -107,7 +107,7 @@ there are 5 error handlers or expcetions in java. They are,
 	import
 	new
 
-## 5. coditions & loop (10)
+## 5. conditions & loop (10)
 	for
 	while
 	do
@@ -133,3 +133,15 @@ another one - 'Asset' keyword
 ## Exercises
 
 1. helloWorld example
+
+
+# FAQ for now?
+
+1. Do we have to declare class as public?
+Ans : Not mandatory. it could be either public or not
+2. Do we heed to have file name and class name matching?
+Ans : if class is defined as public, Yes they have to be matched
+3. Do we need to define the main method argument name as args?
+Ans : not mandatory,but recommended
+4. Do we need to have main(-) public?
+Ans : yes, main method has to be public
