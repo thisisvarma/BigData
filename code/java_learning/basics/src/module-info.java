@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author varma
- *
- */
-module firstProgram {
-}
