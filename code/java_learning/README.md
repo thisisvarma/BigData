@@ -39,10 +39,10 @@ It is pretty easy as ubuntu software center provides eclipse installer directly.
 
 There are two main tasks have to perform in Java, not like python.
 
-	1. write to code
+	1. write the code
 	2. compile the code
 
-once we compile the code, it will create/generate "<fileName>.class" file which is real executable for our application or code.
+once we compile the code, it will create/generate ".class" file which is real executable for our application or code.
 
- 
+
 
