@@ -103,4 +103,4 @@ Once VB is ready, we should be able to lauch any interfaces from below list. Her
 
 # 4. HDFS commands
 
-This is big chapter to cover lot of stuff.. Better, i should mention in another page for this chapter to make our lives easier. Follow this [link]() for HDFS commands
+This is big chapter to cover lot of stuff.. Better, i should mention in another page for this chapter to make our lives easier. Follow this [link](https://github.com/psanthoshkumar/BigDataLearning/blob/master/Docs/hadoop/hdfs_commands/README.md) for HDFS commands

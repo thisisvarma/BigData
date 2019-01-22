@@ -1,1 +1,3 @@
-README.md
+
+
+commands are: 
