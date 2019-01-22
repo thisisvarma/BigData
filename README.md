@@ -2,7 +2,7 @@
 
 **Get starting learning Big Data**
 
-Disclaimer : this notes is taken from internet and using this notes or programs is not advisable to use in any production Environments. 
+Disclaimer : this notes is taken from internet, surfing. Hence, using this notes or programs is not advisable to use in any production Environments. 
 
 1. [Introduction to Big Data](https://github.com/psanthoshkumar/BigDataLearning/wiki/1.-Introduction-to-Big-Data)
 
