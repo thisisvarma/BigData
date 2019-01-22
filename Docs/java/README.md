@@ -44,5 +44,7 @@ There are two main tasks have to perform in Java, not like python.
 
 once we compile the code, it will create/generate ".class" file which is real executable for our application or code.
 
+### Note : All my practiced Java code is at "code/java_learning/" in repository
+
 
 
