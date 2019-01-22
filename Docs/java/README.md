@@ -47,4 +47,89 @@ once we compile the code, it will create/generate ".class" file which is real ex
 ### Note : All my practiced Java code is at "code/java_learning/" in repository
 
 
+# Topic - Keywords
 
+1. DataTypes
+2. Exception
+3. modifiers
+4. classes & object
+5. coditions & loop
+6. unused
+7. method
+8. Asset
+
+## 1. DataTypes:
+
+There are 8 data types in java. They are,
+
+	byte
+	boolean
+	char
+	short
+	int
+	float
+	long
+	double
+
+## 2. Exceptions
+
+there are 5 error handlers or expcetions in java. They are,
+
+	try
+	throw
+	throws
+	catch
+	finally
+
+## 3.modifiers, 11 modifiers are given below
+
+	private
+	public
+	protected
+	
+	static
+	final
+	native
+	abstract
+	transient
+	sychronized
+	strictfp
+
+## 4.classes & objects (11)
+
+	class
+	interface
+	enum
+	extends
+	implements
+	this
+	super
+	instanceof
+	package
+	import
+	new
+
+## 5. coditions & loop (10)
+
+	for
+	while
+	do
+	continue
+	break
+	switch
+	case
+	default
+	if
+	else
+
+## 6. unused(2)
+
+	goto
+	const
+
+## 7. method(2)
+
+	void
+	return
+
+another one - 'Asset' keyword
