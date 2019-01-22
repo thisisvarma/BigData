@@ -70,6 +70,14 @@ In ideal conditions, we should be able to login to ubuntu OS which has all packa
 	Node-8.9.0
 
 
+### Web interfaces:
+
+Once VB is ready, we should be able to lauch any interface from below list. Here are some useful links to navigate to various UI's:
+
+	YARN resource manager: (http://localhost:8088)
+	HDFS: (http://localhost:50070/dfshealth.html)
+	Spark history server: (http://localhost:18080)
+	Spark context UI (if a Spark context is running): (http://localhost:4040) [Spark context server port is open from 4040 to 4044]
 
 
 
