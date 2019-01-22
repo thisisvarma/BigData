@@ -4,6 +4,8 @@
 
 #Disclaimer : this notes is taken from internet, surfing. Hence, using this notes or programs is not advisable to use in any production Environments. 
 
+### In total training session has 7 chapters for now! Below are titles for each chapter
+
 1. [Introduction to Big Data](https://github.com/psanthoshkumar/BigDataLearning/wiki/1.-Introduction-to-Big-Data)
 
 2. [Hadoop Architecture](https://github.com/psanthoshkumar/BigDataLearning/wiki/2.-Hadoop-Architecture)
@@ -29,6 +31,8 @@ Once we finished installing virtualbox and vagrant, follow below steps
 * Open Terminal(In my case, I am using ubuntu, but, use cmd for Windows machine) and navigate to VagrantFile path
 * run "vagrant up" command
 * do "vagrant ssh"
+
+In ideal conditions, we should be able to login to ubuntu OS which has all packages what we need to continue with our training
 
 ### Note : vagrant box may change/remove/update from vagrant cloud storage. At this point of time, i have below features
 
