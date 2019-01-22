@@ -72,7 +72,7 @@ In ideal conditions, we should be able to login to ubuntu OS which has all packa
 
 ### Web interfaces:
 
-Once VB is ready, we should be able to lauch any interface from below list. Here are some useful links to navigate to various UI's:
+Once VB is ready, we should be able to lauch any interfaces from below list. Here are some useful links to navigate to various UI's:
 
 	YARN resource manager: (http://localhost:8088)
 	HDFS: (http://localhost:50070/dfshealth.html)
