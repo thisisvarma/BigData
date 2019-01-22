@@ -80,4 +80,14 @@ Once VB is ready, we should be able to lauch any interfaces from below list. Her
 	Spark context UI (if a Spark context is running): (http://localhost:4040) [Spark context server port is open from 4040 to 4044]
 
 
+### Start/stop services manually from inside VB
+	$ vagrant ssh
+	$ sudo su - hadoop
+
+	# Stop the services
+	$ jps | grep -v Jps | awk '{print $1}' | xargs kill -9
+
+	# Start the services
+	$ /bin/bash /opt/service-start-cluster.sh
+
 
