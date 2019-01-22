@@ -21,7 +21,8 @@ its pretty easy to setup Environment. there are two things need to do
 
 installing jdk is pretty easy if your debian configured to repository. Run following commands, if you are using ubuntu OS
 
-	sudo apt install default-jdk
+	sudo apt-get install openjdk-8-jdk
+
 
 ### validation
 
@@ -127,3 +128,8 @@ there are 5 error handlers or expcetions in java. They are,
 	return
 
 another one - 'Asset' keyword
+
+
+## Exercises
+
+1. helloWorld example
