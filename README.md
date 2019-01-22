@@ -30,7 +30,7 @@ Once we finished installing virtualbox and vagrant, follow below steps
 * run "vagrant up" command
 * do "vagrant ssh"
 
-# Note : This may change/remove/update from vagrant cloud storage. At the time of download, i have below features
+### Note : vagrant box may change/remove/update from vagrant cloud storage. At this point of time, i have below features
 
 	Single node Hadoop cluster on Ubuntu/Xenial64
 
