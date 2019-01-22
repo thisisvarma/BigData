@@ -82,7 +82,6 @@ there are 5 error handlers or expcetions in java. They are,
 	finally
 
 ## 3.modifiers, 11 modifiers are given below
-
 	private
 	public
 	protected
