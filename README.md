@@ -60,7 +60,7 @@ In ideal conditions, we should be able to login to ubuntu OS which has all packa
 ### Note : vagrant box may change/remove/update from vagrant cloud storage. At this point of time, i have below features
 
 	Following services are part of cluster Hadoop-2.7.2 Hive-1.2.2 on Postgresql Spark-1.6.0 Git Postgresql Anaconda2-5.0.1 Node-8.9.0 PhantomJS Monit (Manages Hadoop start/stop of hadoop services as per dependency) Redis-Server
-	
+
 	Few nodeJs packages are added in the box and bumpped up the version.
 
 	Users: hadoop for managing cluster vagrant: Having access to Hadoop cluster
@@ -96,9 +96,9 @@ Once VB is ready, we should be able to lauch any interfaces from below list. Her
 1. JAVA knowledge
 2. Install Hadoop Single node server
 
-### minimum JAVA knowledge is required. Hence, have to practice java and my notes for JAVA preparation at link [Java notes](https://github.com/psanthoshkumar/BigDataLearning/blob/master/Docs/java/README.md) , once you finished come back here!
+#### minimum JAVA knowledge is required. Hence, have to practice java and my notes for JAVA preparation at link [Java notes](https://github.com/psanthoshkumar/BigDataLearning/blob/master/Docs/java/README.md) , once you finished come back here!
 
-### if you follow above steps, your single node server will be ready for next chapter.
+#### if you follow above steps, your single node server will be ready for next chapter.
 
 
 # 4. HDFS commands
