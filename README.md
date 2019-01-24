@@ -96,7 +96,7 @@ Once VB is ready, we should be able to lauch any interfaces from below list. Her
 1. JAVA knowledge
 2. Install Hadoop Single node server
 
-#### minimum JAVA knowledge is required. Hence, have to practice java and my notes for JAVA preparation at link [Java notes](https://github.com/psanthoshkumar/BigDataLearning/blob/master/Docs/java/README.md) , once you finished come back here!
+#### Note: minimum JAVA knowledge is required. Hence, have to practice java and my notes for JAVA preparation at link [Java notes](https://github.com/psanthoshkumar/BigDataLearning/blob/master/Docs/java/README.md) , once you finished come back here!
 
 #### if you follow above steps, your single node server will be ready for next chapter.
 
