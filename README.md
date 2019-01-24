@@ -59,15 +59,15 @@ In ideal conditions, we should be able to login to ubuntu OS which has all packa
 
 ### Note : vagrant box may change/remove/update from vagrant cloud storage. At this point of time, i have below features
 
-	Single node Hadoop cluster on Ubuntu/Xenial64
+	Following services are part of cluster Hadoop-2.7.2 Hive-1.2.2 on Postgresql Spark-1.6.0 Git Postgresql Anaconda2-5.0.1 Node-8.9.0 PhantomJS Monit (Manages Hadoop start/stop of hadoop services as per dependency) Redis-Server
+	
+	Few nodeJs packages are added in the box and bumpped up the version.
 
-	Hadoop-2.7.4
-	Hive-1.2.2 on Postgresql
-	Spark-2.1.1
-	Git
-	Postgresql-9.5
-	Anaconda2-5.0.1
-	Node-8.9.0
+	Users: hadoop for managing cluster vagrant: Having access to Hadoop cluster
+
+	Use below Vagrant file for flawless deployment:-
+
+	Vagrantfile: https://github.com/psanthoshkumar/BigDataLearning/blob/master/Environments/Vagrantfile
 
 
 ### Web interfaces:
@@ -104,4 +104,3 @@ Once VB is ready, we should be able to lauch any interfaces from below list. Her
 # 4. HDFS commands
 
 This is big chapter to cover lot of stuff.. Better, i should mention in another page for this chapter to make our lives easier. Follow this [link](https://github.com/psanthoshkumar/BigDataLearning/blob/master/Docs/hadoop/hdfs_commands/README.md) for HDFS commands
-
