@@ -12,9 +12,11 @@ in old tradition, we used to have commands like
 	hadoop dfs -ls
 
 
-but these commands are deprecated in newer versions and advised to use hdfs instead of hadoop.
+but these commands (syntax starting with hadoop) are deprecated in newer versions and advised to use hdfs instead of hadoop.
 
 Examples :
 
 	hdfs dfs -mkdir /DATA01
-	hdfs dfs -ls 
+	hdfs dfs -ls
+
+![Deprecated syntax](https://github.com/psanthoshkumar/BigDataLearning/blob/master/pictures/hadoop_commands_are_deprecated.png) 
