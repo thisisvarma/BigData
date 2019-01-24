@@ -1,6 +1,6 @@
 Vagrant.configure("2") do |config|
 	ports = [ 5800, 5801, 5802, 5803, 50070, 8088, 18088, 18080, 18081, 19888, 4040, 4041, 4042, 4044 ]
-	config.vm.box = "ubuntu/trusty64"
+	config.vm.box = "rrubsamen/trusty64cdh"
 	ports.each do |port|
 		config.vm.network :forwarded_port, guest: port, host: port
     end
