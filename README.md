@@ -214,4 +214,24 @@ In this logic, array will be looped to add all the values present in array. So f
 
 This is the main program to run Mapper and Reducer
 
-Code is located under Java learning path..
+Code is located under Java learning path.. Once code(jar file) is ready to test, copy file to Environments Directory so that it will be available from Guest OS
+
+
+Once code is copied, create a text file and upload it to HDFS file system using following commands
+
+![files](https://github.com/psanthoshkumar/BigDataLearning/blob/master/pictures/filesListed_and_WordCount_jarFile.png)
+
+![putcommand](https://github.com/psanthoshkumar/BigDataLearning/blob/master/pictures/put_inputFile_to_HDFS.png)
+
+once file has been loaded, we are ready for pilot test.. Run the code as given below
+
+![runCode](https://github.com/psanthoshkumar/BigDataLearning/blob/master/pictures/runProgram.png)
+
+if there are no error, we will see output like below
+
+![finaloutput](https://github.com/psanthoshkumar/BigDataLearning/blob/master/pictures/output.png)
+
+
+Hurry! we have finished our first MapReduce program successfully!!!
+
+
