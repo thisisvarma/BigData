@@ -129,7 +129,7 @@ there are 3 different stages in Mapper part. They are :
 
 Then output goes to Reducer logic and reduce will take care of giving output
 
-Example: 
+### Example: Find word count from given file 
 
 #### Take the file1.txt with below data
 
@@ -143,7 +143,7 @@ Example:
 In general, this data will be saved to HDFS with finite block size. Here, Mapper(the Java class) execute on each block. If data saved into 2 blocks, then 2 Mapper objects will be created to process the data.
 
 
-In this example, data will be stored into key and value formate
+In this example, First of all.. data will be stored into key and value formate
 
 
 		key 		---->	value
@@ -151,4 +151,45 @@ In this example, data will be stored into key and value formate
 		26		----> 	Apple Ball Sam
 		26+14=40	---->	Sam Apple
 		40+9=49		---->	Sam Happy
+
+Here, each line is segmented as key and value which is going to scan by mapper code first of all. 
+
+Now Mapper class will begin processing data.. As said there are 3 stages in Mapper.
+
+##### First stage is Shuffle
+
+Firstly, Mapper logic will take line 1 where value 0 and value "Apple Apple Ball Ball Ball". Here value will be stored in Array and separator should be either "space" or "comma" depends on how's data stored in input file. In this case, "space" is the separator as we have spaces between words.
+
+This logic will take a word, example "Apple" and assign value as 1 to it. This logic will be looped/executed until array reaches its max length.
+
+	Output of first line from example is: 
+
+	Apple 1
+	Apple 1
+	Ball 1
+	Ball 1
+	Ball 1
+
+similarly, All lines will be executed by mapper class then after each "word taken as key" and assign value as "1".
+
+#### Second stage is sorted,
+
+Once shuffle is done, we will have each word(key) and values(in this case 1 is value as it is word count program). In this stage, all words will be sorted like below
+
+	<Key value>
+	Apple 1
+	Apple 1
+	Apple 1 
+	  |
+	  |
+	  |
+	Ball 1
+	BAll 1
+	  |
+	  |
+	Sam 1
+	Sam 1
+	Sam 1
+	Happy 1
+
 
