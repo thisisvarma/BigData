@@ -123,9 +123,9 @@ Map-reduce framework will work on key, value concept. There are 3 different part
 
 there are 3 different stages in Mapper part. They are : 
 
-	Shuffled
-	Sorted
-	Grouped
+	Shuffle
+	Sort
+	Group
 
 Then output goes to Reducer logic and reduce will take care of giving output
 
@@ -172,7 +172,7 @@ This logic will take a word, example "Apple" and assign value as 1 to it. This l
 
 similarly, All lines will be executed by mapper class then after each "word taken as key" and assign value as "1".
 
-#### Second stage is sorted,
+#### Second stage is sort,
 
 Once shuffle is done, we will have each word(key) and values(in this case 1 is value as it is word count program). In this stage, all words will be sorted like below
 
