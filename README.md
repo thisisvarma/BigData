@@ -23,11 +23,7 @@
 
 4. HDFS commands
 
-5. First Map Reduce program
-
-6. Map Reduce practical
-
-7. Map Reduce using Maven
+5. Map Reduce concepts
 
 # 1.Introduction to Big Data
 
@@ -113,3 +109,46 @@ Once VB is ready, we should be able to lauch any interfaces from below list. Her
 # 4. HDFS commands
 
 This is big chapter to cover lot of stuff.. Better, i should mention in another page for this chapter to make our lives easier. Follow this [link](https://github.com/psanthoshkumar/BigDataLearning/blob/master/Docs/hadoop/hdfs_commands/README.md) for HDFS commands
+
+
+# 5. Map-reduce concepts
+
+Map-reduce framework will work on key, value concept. There are 3 different parts or logics in each Map-reduce program
+
+## 1. Mapper
+## 2. Reduce
+## 3. Driver
+
+### 1. Mapper:
+
+there are 3 different stages in Mapper part. They are : 
+
+	Shuffled
+	Sorted
+	Grouped
+
+Then output goes to Reducer logic and reduce will take care of giving output
+
+Example: 
+
+#### Take the file1.txt with below data
+
+	Apple Apple Ball Ball Ball
+	Apple Ball Sam
+	Sam Apple
+	Sam Happy
+
+
+
+In general, this data will be saved to HDFS with finite block size. Here, Mapper(the Java class) execute on each block. If data saved into 2 blocks, then 2 Mapper objects will be created to process the data.
+
+
+In this example, data will be stored into key and value formate
+
+
+####	key 		---->	value
+		0			---->	Apple Apple Ball Ball Ball
+		26			----> 	Apple Ball Sam
+		26+14=40	---->	Sam Apple
+		40+9=49		---->	Sam Happy
+
