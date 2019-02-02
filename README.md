@@ -116,7 +116,7 @@ This is big chapter to cover lot of stuff.. Better, i should mention in another 
 Map-reduce framework will work on key, value concept. There are 3 different parts or logics in each Map-reduce program
 
 ## 1. Mapper
-## 2. Reduce
+## 2. Reducer
 ## 3. Driver
 
 ### 1. Mapper:
@@ -180,16 +180,37 @@ Once shuffle is done, we will have each word(key) and values(in this case 1 is v
 	Apple 1
 	Apple 1
 	Apple 1 
-	  |
-	  |
-	  |
+	Apple 1
 	Ball 1
-	BAll 1
-	  |
-	  |
+	Ball 1
+	Ball 1
+	Ball 1
 	Sam 1
 	Sam 1
 	Sam 1
 	Happy 1
 
+Note: of course, Data will be sorted in alphabetical order, Ignore if you find wrong order. 
+
+#### third stage is grouping,
+
+In this stage, above data will be grouped by Hadoop framework as below. Key should be word and value will be stored as array with values
+
+	Apple [1,1,1,1]
+	Ball [1,1,1,1]
+	Sam [1,1,1]
+	Happy [1]
+
+### 2. Reducer
+
+In this logic, array will be looped to add all the values present in array. So final output is:
+
+	Apple 4
+	Ball 4
+	Sam 3
+	Happy 1
+
+### 3. Driver
+
+This is the main program to run Mapper and Reducer
 
