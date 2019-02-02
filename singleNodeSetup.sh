@@ -1,3 +1,5 @@
+######  This is not yet working,dont use it for production stuff
+
 cd ~ 
 sudo apt-get update
 
