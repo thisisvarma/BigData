@@ -146,9 +146,9 @@ In general, this data will be saved to HDFS with finite block size. Here, Mapper
 In this example, data will be stored into key and value formate
 
 
-####	key 		---->	value
-		0			---->	Apple Apple Ball Ball Ball
-		26			----> 	Apple Ball Sam
+		key 		---->	value
+		0		---->	Apple Apple Ball Ball Ball
+		26		----> 	Apple Ball Sam
 		26+14=40	---->	Sam Apple
 		40+9=49		---->	Sam Happy
 
