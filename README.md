@@ -6,27 +6,36 @@
 
 ### In total, training session has 7 chapters for now! Below are titles for each chapter
 
-1. [Introduction to Big Data](https://github.com/psanthoshkumar/BigDataLearning/wiki/1.-Introduction-to-Big-Data)
+# Main topics
+	
+1. scope of Bigdata
+2. Java basis
+3. Scala
 
-2. [Hadoop Architecture](https://github.com/psanthoshkumar/BigDataLearning/wiki/2.-Hadoop-Architecture)
 
-3. [First Week Assignment](https://github.com/psanthoshkumar/BigDataLearning/wiki/3.-First-Week-Assignment)
+# Scope of Bigdata
 
-4. [HDFS commands](https://github.com/psanthoshkumar/BigDataLearning/wiki/4.-HDFS-commands)
+1. Introduction to Big Data
 
-5. [First Map Reduce program](https://github.com/psanthoshkumar/BigDataLearning/wiki/5.-First-Map-Reduce-program)
+2. Hadoop Architecture
 
-6. [Map Reduce practical](https://github.com/psanthoshkumar/BigDataLearning/wiki/6.-Map-Reduce-practical)
+3. First Week Assignment
 
-7. [Map Reduce using Maven](https://github.com/psanthoshkumar/BigDataLearning/wiki/7.-Map-Reduce-using-Maven)
+4. HDFS commands
+
+5. First Map Reduce program
+
+6. Map Reduce practical
+
+7. Map Reduce using Maven
 
 # 1.Introduction to Big Data
 
-This chapter is missing for now
+Link TBD
 
 # 2.Hadoop Architecture
 
-Some part of this chapter also missed
+Link TBD
 
 ## Hadoop node installation
 
