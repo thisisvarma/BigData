@@ -1935,3 +1935,9 @@ java.lang.IllegalArgumentException: The value of property eclipse.plug-in.nameno
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2019-02-02 03:10:23.628
 !MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-02-02 03:18:33.340
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-02-02 03:18:33.343
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
