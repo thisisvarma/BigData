@@ -71,3 +71,4 @@ Here, myVal is declared using the keyword val. This means that it is a variable 
 	Syntax
 	val myVal : String = "Foo"
 
+
