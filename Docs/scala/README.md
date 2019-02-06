@@ -19,7 +19,7 @@ Note: this will work if you have ubuntu desktop. If you are using window machine
 
 Onc everything is installed properly, we will see screen like below if you check scala version
 
-!(scala version)[https://github.com/psanthoshkumar/BigDataLearning/blob/master/pictures/sclala_version.png]
+![scala version](https://github.com/psanthoshkumar/BigDataLearning/blob/master/pictures/sclala_version.png)
 
 #### pre-reqs : java has to be installed and little java knowledge is required to understand Scala programming. 
 
