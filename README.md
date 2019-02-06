@@ -227,7 +227,7 @@ once file has been loaded, we are ready for pilot test.. Run the code as given b
 
 ![runCode](https://github.com/psanthoshkumar/BigDataLearning/blob/master/pictures/runProgram.png)
 
-if there are no error, we will see output like below. complete log is copied to log directory in Source
+if there are no errors, we will see output like below. complete log is copied to log directory in Source
 
 ![finaloutput](https://github.com/psanthoshkumar/BigDataLearning/blob/master/pictures/output.png)
 
